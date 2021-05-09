@@ -1,0 +1,6 @@
+{
+  "replaceName" : {
+    "com.hanami.plugin.core.User" : "com.jok.plugin.core.Person",
+    "com.hanami.plugin.core.UserManager" : "com.jok.plugin.core.PersonManager"
+  }
+}

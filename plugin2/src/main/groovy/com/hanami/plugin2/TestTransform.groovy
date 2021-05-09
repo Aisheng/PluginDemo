@@ -16,7 +16,8 @@ import org.gradle.api.Project
 
 /**
  *
- * @author lidaisheng* @date 2021-05-08
+ * @author lidaisheng
+ * @date 2021-05-08
  */
 
 class TestTransform extends Transform {

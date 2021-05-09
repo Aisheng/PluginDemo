@@ -19,9 +19,9 @@ android {
     }
 }
 
-//testPlugin {
-//    filePath = 'file path is xxx'
-//}
+config {
+    configPath = project.projectDir.absolutePath + File.separator + "transform-config.json"
+}
 
 
 

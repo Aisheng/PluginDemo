@@ -12,6 +12,7 @@ dependencies {
     implementation 'com.android.tools.build:gradle:3.3.0'
     //javassist
     implementation 'org.javassist:javassist:3.23.1-GA'
+    implementation 'com.google.code.gson:gson:2.8.5'
 }
 
 uploadArchives {

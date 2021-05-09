@@ -9,7 +9,8 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 
-
+import com.hanami.plugin.core.User;
+import com.hanami.plugin.core.UserManager;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        UserManager userManager = UserManager.getInstance();
+        User user = userManager.find("name");
+        userManager.work();
     }
 
     @Override
