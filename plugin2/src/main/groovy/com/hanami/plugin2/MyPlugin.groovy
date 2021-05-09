@@ -16,6 +16,8 @@ class MyPlugin implements Plugin<Project> {
 
 
         def android = project.extensions.android
+
+
         project.plugins.all {
             if(it instanceof AppPlugin) {
                 android.applicationVariants.all { variant ->

@@ -12,7 +12,7 @@ class TransformConfig {
 
     String configPath
 
-    Map<String, String> replaceName;
+    Map<String, String> replaceName
 
     static TransformConfig parse(String configPath) {
         String jsonContent = FileUtil.read(configPath)
